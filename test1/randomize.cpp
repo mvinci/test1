@@ -6,6 +6,9 @@
 int main(void){
 	int i = 0;
 	int nombre_aleatoire = 0;
+	
+	
+	/* TEST COMMIT */
 	for(i=0; i<50; i++){
 		nombre_aleatoire = rand()%1001;
 		printf("%d \n",nombre_aleatoire);
